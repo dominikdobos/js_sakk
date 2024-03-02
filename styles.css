@@ -1,0 +1,30 @@
+main {
+  width: 50%;
+  margin: auto;
+}
+
+.tarolo {
+  display: grid;
+  grid-template-columns: repeat(8, max-content);
+  grid-template-rows: repeat(8, max-content);
+}
+
+.vilagos {
+  background-color: beige;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.sotet {
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+img {
+  display: block;
+  margin: auto auto;
+  width: 80px;
+}
